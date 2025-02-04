@@ -9,10 +9,10 @@ function MovieList(){
 
             {moviesArr.map((movieObj) => {
                 return (
-                    <>
+                    <div key={movieObj.id}>
                         <p>{movieObj.title}</p>
                         <p>Year: {movieObj.year}</p>
-                    </>
+                    </div>
                 );
             })}
 
