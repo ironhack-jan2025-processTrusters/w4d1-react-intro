@@ -16,7 +16,7 @@ function MovieList(){
 
             {moviesArr.map((movieObj) => {
                 return (
-                    <div key={movieObj.id}>
+                    <div key={movieObj.id} className="box">
                         <p>{movieObj.title}</p>
 
                         { movieObj.imgURL 

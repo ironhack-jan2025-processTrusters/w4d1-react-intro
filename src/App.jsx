@@ -4,7 +4,6 @@ import Banner from "./components/Banner.jsx"
 import User from "./components/User.jsx"
 import Footer from "./components/Footer.jsx"
 
-import './App.css'
 import MovieList from "./components/MovieList.jsx"
 
 
@@ -19,11 +18,7 @@ function App() {
       <User userName="Bob" age={40} />
       <User userName="Charlie" age={50} />
 
-      <hr />
-      
       <MovieList />
-
-      <hr />
 
       <Footer message="hello world">
         <p>Ironhack processTrusters, 2025</p>
